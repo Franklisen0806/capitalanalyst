@@ -1,0 +1,53 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为请求参数，包括不限于网址、请求头、响应头、COOKIE、Referer、UserAgent",
+        " *   本文件仅为记录详细请求参数便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "directory": "capitalanalyst-com-au-fetqfttf",
+    "options": {
+        "url": "http://capitalanalyst.com.au/",
+        "index": "index.html",
+        "domain": "capitalanalyst.com.au",
+        "origin": "http://capitalanalyst.com.au",
+        "ipaddress": "13.211.182.76",
+        "originURL": "http://capitalanalyst.com.au/",
+        "filenameGenerator": "byType",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "accept-encoding": "gzip",
+                "cache-control": "no-cache",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.me/"
+            }
+        },
+        "response": {
+            "statusCode": 200,
+            "headers": {
+                "date": "Wed, 19 May 2021 11:46:41 GMT",
+                "server": "Apache",
+                "x-powered-by": "PHP/7.2.34",
+                "cache-control": "public, max-age=60",
+                "last-modified": "Tue, 11 May 2021 04:25:56 GMT",
+                "content-length": "67799",
+                "connection": "close",
+                "content-type": "text/html; charset=utf-8"
+            }
+        }
+    },
+    "user": {
+        "isWhite": false
+    },
+    "formatter": [
+        "saveOriginal"
+    ],
+    "time": {
+        "start": 1621424800644,
+        "end": 1621424806718,
+        "spend": 6.074
+    }
+}

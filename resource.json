@@ -1,0 +1,88 @@
+{
+    "header": [
+        " *   ",
+        " *   文件描述：本文件为网页资源信息",
+        " *   success字段为下载保存成功的资源;failures字段则为下载保存失败的资源URL",
+        " *   success字段为标准树结构，每一层资源父子关系、URL和保存路径清晰明了",
+        " *   本文件仅为记录检测到的网页资源以便于调试，非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq",
+        " *   "
+    ],
+    "success": [
+        {
+            "url": "http://capitalanalyst.com.au/",
+            "path": "index.html",
+            "children": [
+                {
+                    "url": "http://capitalanalyst.com.au/templates/Skyline_v2/resources/images/banner_frame.png",
+                    "path": "images/banner_frame.png"
+                },
+                {
+                    "url": "http://assets.yolacdn.net/template_assets/pacific/resources/pacific_img_02.jpg",
+                    "path": "images/pacific_img_02.jpeg"
+                },
+                {
+                    "url": "http://assets.yolacdn.net/template_assets/pacific/resources/pacific_img_03.jpg",
+                    "path": "images/pacific_img_03.jpeg"
+                },
+                {
+                    "url": "http://assets.yolacdn.net/template_assets/pacific/resources/pacific_img_04.jpg",
+                    "path": "images/pacific_img_04.jpeg"
+                },
+                {
+                    "url": "http://assets.yolacdn.net/template_assets/pacific/resources/pacific_img_05.jpg",
+                    "path": "images/pacific_img_05.jpeg"
+                },
+                {
+                    "url": "http://ajax.googleapis.com/ajax/libs/webfont/1.4.2/webfont.js",
+                    "path": "js/webfont.js"
+                },
+                {
+                    "url": "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js",
+                    "path": "js/jquery.min.js"
+                },
+                {
+                    "url": "http://capitalanalyst.com.au/classes/commons/resources/flyoutmenu/flyoutmenu.js?1001096",
+                    "path": "js/flyoutmenu.js"
+                },
+                {
+                    "url": "http://capitalanalyst.com.au/templates/Skyline_v2/resources/js/browserify.build.js",
+                    "path": "js/browserify.build.js"
+                },
+                {
+                    "url": "http://capitalanalyst.com.au/templates/Skyline_v2/resources/css/reset.css",
+                    "path": "css/reset.css"
+                },
+                {
+                    "url": "http://capitalanalyst.com.au/templates/Skyline_v2/resources/css/less.build.css",
+                    "path": "css/less.build.css"
+                },
+                {
+                    "url": "http://capitalanalyst.com.au/classes/commons/resources/flyoutmenu/flyoutmenu.css?1001096",
+                    "path": "css/flyoutmenu.css",
+                    "children": [
+                        {
+                            "url": "http://capitalanalyst.com.au/classes/commons/resources/flyoutmenu/blue_slice_large.png",
+                            "path": "images/blue_slice_large.png"
+                        }
+                    ]
+                },
+                {
+                    "url": "http://capitalanalyst.com.au/classes/commons/resources/global/global.css?1001096",
+                    "path": "css/global.css",
+                    "children": [
+                        {
+                            "url": "http://capitalanalyst.com.au/classes/commons/resources/global/captcha.png",
+                            "path": "images/captcha.png"
+                        }
+                    ]
+                },
+                {
+                    "url": "http://capitalanalyst.com.au/classes/components/Image/layouts/Default/Default.css?1001096",
+                    "path": "css/Default.css"
+                }
+            ]
+        }
+    ],
+    "failures": []
+}
